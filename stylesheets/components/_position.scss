@@ -1,0 +1,19 @@
+.position-relative {
+    position: relative;
+}
+
+.positon-absolute {
+    position: absolute;
+    top: 47%;
+    left: 25%;
+
+    @include media-breakpoint-up(md) {
+        top: 47%;
+        left: 30%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        top: 47%;
+        left: 38%;
+    }
+}
