@@ -44,10 +44,16 @@
     </nav>
 
     <section class="cover">
-        <div style="width: 100%;">
-            <img src="./images/Skyline-Abu Dhabi.jpeg" alt="" style="width: 100%;" class="d-lg-none">
-            <img src="./images/cover-skyline.jpg" alt="" class="d-none d-lg-block w-100">
-        </div>
+        <!-- <picture> 響應式圖片 (Responsive Images) - 自動載入不同尺寸和檔案格式的圖片 -->
+        <!-- 新code -->
+        <picture>
+            <source srcset="./images/cover-skyline.jpg" media="(min-width:992px)">
+            <img src="./images/Skyline-Abu Dhabi.jpeg" alt="" class="w-100">
+        </picture>
+
+        <!-- 舊code -->
+        <!-- <img src="./images/Skyline-Abu Dhabi.jpeg" alt="" style="width: 100%;" class="d-lg-none">
+            <img src="./images/cover-skyline.jpg" alt="" class="d-none d-lg-block w-100"> -->
     </section>
 
     <section class="steps">
@@ -72,7 +78,7 @@
                     </div>
                 </div>
                 <div class="col d-flex flex-lg-column align-items-center mt-11 mt-md-0">
-                    <img src="./images/Options.jpeg" alt="" style="height: 200px;"
+                    <img src="./images/options.jpeg" alt="" style="height: 200px;"
                         class="border border-warning rounded-circle">
                     <div class="text-lg-center ms-3 ms-lg-0 mt-lg-3">
                         <p>STEP3</p>

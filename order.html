@@ -44,17 +44,25 @@
     </nav>
 
     <section class="cover">
-        <div class="d-flex flex-nowrap" style="width: 100%;">
+        <!-- 新code -->
+        <picture>
+            <source srcset="./images/cover-skyline.jpg" media="(min-width:992px)">
+            <img src="./images/Skyline-Abu Dhabi.jpeg" alt="" class="w-100">
+        </picture>
+        <!-- <picture> 響應式圖片 (Responsive Images) - 自動載入不同尺寸和檔案格式的圖片 -->
+
+        <!-- 舊code -->
+        <!-- <div class="d-flex flex-nowrap" style="width: 100%;">
             <img src="./images/Skyline-Abu Dhabi.jpeg" alt="" style="width: 100%;" class="d-lg-none">
             <img src="./images/cover-skyline.jpg" alt="" class="d-none d-lg-block w-100">
-        </div>
+        </div> -->
     </section>
 
     <section class="order container mt-12 mb-7">
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <form action=""
-                    class="shadow p-3 mb-5 bg-body rounded px-6 border border-5 border-end-0 border-bottom-0 border-start-0 border-warning">
+                    class="shadow p-3 mb-5 bg-body rounded px-6 border-top border-5 border-warning">
                     <h3 class="mt-5 mb-7  text-center">填寫訂購資訊</h3>
                     <div class="row row-cols-1 row-cols-lg-2">
                         <div class="col">

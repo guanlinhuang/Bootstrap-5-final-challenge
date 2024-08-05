@@ -15185,54 +15185,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.position-relative {
-  position: relative;
-}
-
-.positon-absolute {
-  position: absolute;
-  top: 47%;
-  left: 25%;
-}
-@media (min-width: 768px) {
-  .positon-absolute {
-    top: 47%;
-    left: 30%;
-  }
-}
-@media (min-width: 992px) {
-  .positon-absolute {
-    top: 47%;
-    left: 38%;
-  }
-}
-
-.footer-bg-color {
-  background-color: #3A3A3A !important;
-}
-
-.btn-hover:hover {
-  color: #000;
-  background-color: #F9C745;
-  border-color: #F9C745;
-}
-
-.text-shadow-color {
-  text-shadow: #000 0.1em 0.1em 0.2em;
-}
-
-.card-btn-hover:hover {
-  color: #F9C745 !important;
-}
-
-.link-color-hovor:hover {
-  color: #F9C745 !important;
-}
-
-.w-176 {
-  width: 176px;
-}
-
 .cover {
   margin-top: 70px;
 }
@@ -15265,6 +15217,32 @@ textarea.form-control-lg {
   }
 }
 
+.text-align-justify {
+  text-align: justify;
+}
+
+.footer-bg-color {
+  background-color: #3A3A3A !important;
+}
+
+.btn-hover:hover {
+  color: #000;
+  background-color: #F9C745;
+  border-color: #F9C745;
+}
+
+.text-shadow-color {
+  text-shadow: #000 0.1em 0.1em 0.2em;
+}
+
+.card-btn-hover:hover {
+  color: #F9C745 !important;
+}
+
+.link-color-hovor:hover {
+  color: #F9C745 !important;
+}
+
 .card-img-overlay {
   opacity: 0;
 }
@@ -15278,39 +15256,21 @@ textarea.form-control-lg {
   }
 }
 
-.card-img-change-1:hover {
+.card-img-change:hover {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.0784313725);
 }
-.card-img-change-1:hover img {
-  content: url(/images/Tokyo_7.jpg);
-}
-.card-img-change-1:hover a {
-  color: #000;
+.card-img-change:hover img {
+  display: block;
 }
 
-.card-img-change-2:hover {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.0784313725);
-}
-.card-img-change-2:hover img {
-  content: url(/images/New\ York_5.jpg);
-}
-.card-img-change-2:hover a {
-  color: #000;
-}
-
-.card-img-change-3:hover {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.0784313725);
-}
-.card-img-change-3:hover img {
-  content: url(/images/London_6.jpg);
-}
-.card-img-change-3:hover a {
-  color: #000;
+.card-img-hover {
+  display: none;
 }
 
 .card-img-object-fit {
   width: 100%;
   height: 400px;
+  position: relative;
 }
 .card-img-object-fit img {
   -o-object-fit: cover;
@@ -15326,6 +15286,28 @@ textarea.form-control-lg {
   border-radius: 24px;
 }
 
+.position-relative {
+  position: relative;
+}
+
+.positon-absolute {
+  position: absolute;
+  top: 47%;
+  left: 25%;
+}
+@media (min-width: 768px) {
+  .positon-absolute {
+    top: 47%;
+    left: 30%;
+  }
+}
+@media (min-width: 992px) {
+  .positon-absolute {
+    top: 47%;
+    left: 38%;
+  }
+}
+
 .routes {
   margin-top: 70px;
 }
@@ -15333,8 +15315,4 @@ textarea.form-control-lg {
   .routes {
     margin-top: 88px;
   }
-}
-
-.text-align-justify {
-  text-align: justify;
 }/*# sourceMappingURL=all.css.map */
